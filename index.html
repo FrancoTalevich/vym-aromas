@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VyM Aromas - Infusiones Aromaticas Artesanales</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./imagenes/logo.jpg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header class="header">
+        <img class="logo" src="./imagenes/logo.jpg" alt="logo">
+        <nav class="nav">
+            <ul class="nav__listadenavegacion">
+                <li class="nav__item">
+                    <a href="./index.html">Inicio</a>
+                </li>
+                <li class="nav__item">
+                    <a href="./paginas/productos.html">Productos</a>
+                </li>
+                <li class="nav__item">
+                    <a href="./paginas/tienda.html">Tienda</a>
+                </li>
+                <li class="nav__item">
+                    <a href="./paginas/nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav__item">
+                    <a href="./paginas/faq.html">Preguntas Frecuentes</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="carrusel"> <!-- Section 1: En esta section van las imagenes para el carrusel -->
+            <div>
+                <img class="carruselhomeimg" src="./imagenes/carrusel1.jpg" alt="carrusel1"> <!--Imagen de prueba hasta aprender a hacer el carrusel-->
+            </div>
+        </section>
+        <div class="promocionproductos">
+            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet vero obcaecati fuga sint, accusamus aut vel id quo rem aliquam repellendus neque, excepturi ad quae omnis laudantium vitae? Quaerat voluptatem quo ipsam molestias, quia necessitatibus. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, tempore.</p>
+        </div>
+        <section class="colecciones"> <!-- Section 2: links a dos productos especiales de la marca en la tienda (secciones aparte) -->
+            <div>
+                <a href="./paginas/coleccionvintage.html"> <img class="colecciones__img" src="./imagenes/coleccionvintage.jpg" alt="coleccion vintage"> </a>
+            </div>
+            <div>    
+                <a href="./paginas/boxderegalo.html"> <img class="colecciones__img" src="./imagenes/boxderegalo.jpg" alt="box de regalo"> </a>  
+            </div>
+        </section>
+        <section class="info"> <!-- Section 3: Informacion general de nuestros productos -->
+            <h4 class="info__titulo">Queres saber mas acerca de nuestros productos? Todos nuestros productos son:</h4>
+            <div class="info__tarjetas">
+                <article>
+                    <div class="info__propiedades">
+                        <h6>Propiedad 1</h6>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate suscipit quidem, in asperiores libero eligendi atque laborum nulla neque nobis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis sit laborum placeat maiores est earum, facere, in dolor sint voluptatibus quos esse sapiente porro perferendis, omnis quod repudiandae enim aut.</p>
+                    </div>
+                </article>
+                <article>
+                    <div class="info__propiedades">
+                        <h6>Propiedad 1</h6>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate suscipit quidem, in asperiores libero eligendi atque laborum nulla neque nobis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis sit laborum placeat maiores est earum, facere, in dolor sint voluptatibus quos esse sapiente porro perferendis, omnis quod repudiandae enim aut.</p>
+                    </div>
+                </article>
+                <article>
+                    <div class="info__propiedades">
+                        <h6>Propiedad 1</h6>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate suscipit quidem, in asperiores libero eligendi atque laborum nulla neque nobis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis sit laborum placeat maiores est earum, facere, in dolor sint voluptatibus quos esse sapiente porro perferendis, omnis quod repudiandae enim aut.</p>
+                    </div>
+                </article>
+                <article>
+                    <div class="info__propiedades">
+                        <h6>Propiedad 1</h6>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate suscipit quidem, in asperiores libero eligendi atque laborum nulla neque nobis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis sit laborum placeat maiores est earum, facere, in dolor sint voluptatibus quos esse sapiente porro perferendis, omnis quod repudiandae enim aut.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section class="videohome"> <!-- Section 4: Video (video de muestra) -->
+            <iframe class="iframeyt" src="https://www.youtube.com/embed/QDcGRj22YXI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+        <section class="suscripcion"> <!-- Section 5: Suscripcion -->
+            <div class="suscripcion__elementos">
+                <form>
+                    <div>
+                        <p class="suscripcion__titulo">Suscribete a nuestro newsletter</p>
+                        <p>Recibe Promociones y todas nuestras novedades sobre nuestros productos</p>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Ingrese su email" required>
+                        <button>Suscribirse</button>
+                    </div>
+                </form>
+                <div>
+                    <img class="suscripcion__imagen" src="./imagenes/newsletter1.jpg" alt="imagennewsletter">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <p class="ubicacion">San Antonio de Areco - Buenos Aires - Argentina</p>
+        </div>
+        <div>
+            <p class="copy">© Copyright VyM Aromas - 2022 - Derechos reservados</p>
+        </div>
+        <div class="redes">
+            <ul class="redes__lista">
+                <li class="redes__iconos">
+                    <a href="https://wa.me/+542326422825" target="_blank"> <img src="./imagenes/whatsapp.png" alt="logowhatsapp" width="25" height="25"> </a>
+                </li>
+                <li class="redes_iconos">
+                    <a href="https://www.instagram.com/vym_aromas/" target="_blank"> <img src="./imagenes/instagram.png" alt="logoinstagram" width="25" height="25"> </a>
+                </li>
+                <li class="redes_iconos">
+                    <a href="mailto:ftalevich2000@gmail.com" target="_blank"> <img src="./imagenes/email.png" alt="logoemail" width="25" height="25"> </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
