@@ -70,10 +70,10 @@
                                 <img src="./imagenes/carrusel1.jpg" class="d-block w-100" alt="carruselhome1">
                             </div>
                             <div class="carousel-item">
-                                <img src="./imagenes/carrusel2.jpg" class="d-block w-100" alt="carruselhome1">
+                                <img src="./imagenes/carrusel2.jpg" class="d-block w-100" alt="carruselhome2">
                             </div>
                             <div class="carousel-item">
-                                <img src="./imagenes/carrusel1.jpg" class="d-block w-100" alt="carruselhome1">
+                                <img src="./imagenes/carrusel1.jpg" class="d-block w-100" alt="carruselhome3">
                             </div>
                             </div>
                             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -89,19 +89,23 @@
                 </div>
             </div>
         </section>
-        <div class="promocionproductos">
-            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet vero obcaecati fuga sint, accusamus aut vel id quo rem aliquam repellendus neque, excepturi ad quae omnis laudantium vitae? Quaerat voluptatem quo ipsam molestias, quia necessitatibus. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, tempore.</p>
-        </div>
-        <section class="colecciones"> <!-- Section 2: links a dos productos especiales de la marca en la tienda (secciones aparte) -->
-            <div>
-                <a href="./paginas/coleccionvintage.html"> <img class="colecciones__img" src="./imagenes/coleccionvintage.jpg" alt="coleccion vintage"> </a>
-            </div>
-            <div>    
-                <a href="./paginas/boxderegalo.html"> <img class="colecciones__img" src="./imagenes/boxderegalo.jpg" alt="box de regalo"> </a>  
+        <section class="productosdestacados">
+            <div class="productosdestacados__textos">
+                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet vero obcaecati fuga sint, accusamus aut vel id quo rem aliquam repellendus neque, excepturi ad quae omnis laudantium vitae? Quaerat voluptatem quo ipsam molestias, quia necessitatibus. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, tempore.</p>
             </div>
         </section>
-        <section class="info"> <!-- Section 3: Informacion general de nuestros productos -->
+        <section class="colecciones">
+            <div class="colecciones__elementos">
+                <div>
+                    <a href="./paginas/coleccionvintage.html"> <img class="colecciones__img" src="./imagenes/coleccionvintage.jpg" alt="coleccion vintage"> </a>
+                </div>
+                <div>    
+                    <a href="./paginas/boxderegalo.html"> <img class="colecciones__img" src="./imagenes/boxderegalo.jpg" alt="box de regalo"> </a>  
+                </div>
+            </div> 
+        </section>
+        <section class="info">
             <h4 class="info__titulo">Queres saber mas acerca de nuestros productos? Todos nuestros productos son:</h4>
             <div class="info__tarjetas">
                 <article>
@@ -130,21 +134,27 @@
                 </article>
             </div>
         </section>
-        <section class="videohome"> <!-- Section 4: Video (video de muestra) -->
+        <section class="videohome"> 
             <iframe class="iframeyt" src="https://www.youtube.com/embed/QDcGRj22YXI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </section>
-        <section class="suscripcion"> <!-- Section 5: Suscripcion -->
+        <section class="suscripcion">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 col-md-8"> <!--aca necesitaria que en el col 12 el form quede en el medio horizontalmente, lo intente pisar y no me pude dar cuenta que codigo es el que deberia de cambiar-->
-                        <form>
-                            <div>
-                                <p class="suscripcion__titulo">Suscribete a nuestro newsletter</p>
+                    <div class="col-12 col-md-8"> 
+                        <form class="suscripcion__form">
+                            <div class="suscripcion__textos">
+                                <h3>Suscribete a nuestro newsletter</h3>
                                 <p>Recibe Promociones y todas nuestras novedades sobre nuestros productos</p>
-                                <label for="email">Email:</label>
-                                <input type="email" id="email" name="email" placeholder="Ingrese su email" required>
-                                <button>Suscribirse</button>
                             </div>
+                            <div class="mb-3">
+                              <label for="exampleInputEmail1" class="form-label">Email</label>
+                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            </div>
+                            <div class="mb-3">
+                              <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                              <input type="password" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            <button type="submit" class="btn btn-primary">Enviar</button>
                         </form>
                     </div>
                     <div class="col-12 col-md-4">
@@ -157,10 +167,10 @@
 
     <footer>
         <div>
-            <p class="ubicacion">San Antonio de Areco - Buenos Aires - Argentina</p>
+            <p>San Antonio de Areco - Buenos Aires - Argentina</p>
         </div>
         <div>
-            <p class="copy">© Copyright VyM Aromas - 2022 - Derechos reservados</p>
+            <p>© Copyright VyM Aromas - 2022 - Derechos reservados</p>
         </div>
         <div class="redes">
             <ul class="redes__lista">

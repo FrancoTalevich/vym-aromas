@@ -4,8 +4,9 @@
 }
 
 body{
-    background-color: #cfb5b2;
+    background-color: whitesmoke;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
 }
 
 a{
@@ -14,7 +15,8 @@ a{
 }
 
 button{
-    background-color: white;
+    background-color: whitesmoke;
+    color: #cfb5b2;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
     margin: 5px;
@@ -25,7 +27,7 @@ button{
 
 /*Pagina 1: Home -----------------------------------------------------------------------------------------------------------------------------------*/
 
-.header{
+/*.header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -36,7 +38,7 @@ button{
     width: 60%;
     height: 60px;
     box-sizing: content-box;
-}
+}*/
 
 .logo{
     width: 80px;
@@ -56,29 +58,33 @@ button{
     font-size: 16px;
 }
 
-.carrusel{
-    background-color: #ffe4e1;
+.productosdestacados{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
-.carruselhomeimg{
+.productosdestacados__textos{
     width: 100%;
-}
-
-.promocionproductos{
-    width: 100%;
-    background-color: #ffe4e1;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding: 30px 150px;
+    background-color:#cfb5b2;
     text-align: center;
+    color: white;
 }
 
 .colecciones{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+}
+
+.colecciones__elementos{
+    display: flex;
+    flex-direction: row;
     justify-content: space-around;
     width: 100%;
     padding-bottom: 30px;
-    background-color: #ffe4e1;
+    background-color: #cfb5b2;
 }
 
 .info{
@@ -96,7 +102,7 @@ button{
 }
 
 .info__titulo{
-    font-size: 26px;
+    font-size: 28px;
     font-style: italic;
 }
 
@@ -105,8 +111,8 @@ button{
     flex-direction: row;
 }
 
-h6{
-    font-size: 20px;
+.info__propiedades h6{
+    font-size: 22px;
     font-style: italic;
     margin-bottom: 5px;
 }
@@ -138,32 +144,43 @@ h6{
 }
 
 .suscripcion{
+    background-color: #cfb5b2;
+}
+
+.suscripcion__form{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+    height: 550px;
+}
+
+.suscripcion__form label{
+    color: whitesmoke;
+}
+
+.suscripcion__form button{
+    background-color: whitesmoke;
+    color: #cfb5b2;
+    border: whitesmoke;
+    width: 12%;
+}
+
+.suscripcion__textos{
+    font-style: italic;
+    font-size: 22px;
     text-align: center;
     color: white;
-    font-size: 22px;
-    margin-top: 20px;
-    margin-bottom: 20px;
 }
 
-.suscripcion__elementos{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin: 50px;
-}
-
-.suscripcion__titulo{
-    margin-bottom: 20px;
-    font-size: 45px;
+.suscripcion__textos h3{
+    font-size: 30px;
 }
 
 .suscripcion__imagen{
     width: 400px;
     height: 550px;
-    margin-left: 50px;
+    margin: 20px 30px;
 }
 
 footer{
@@ -172,7 +189,6 @@ footer{
     justify-content: space-around;
     align-items: center;
     font-size: 14px;
-    background-color: #ffe4e1;
     height: 100px;
 }
 
