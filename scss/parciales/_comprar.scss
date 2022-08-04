@@ -1,0 +1,27 @@
+/*Pagina 6: tienda producto -----------------------------------------------------------------------------------------------------------------------------------*/
+
+.cardcompra{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.comprar{
+    width: 60%;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #ffe4e1;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.fragancia{
+    width: 50%;
+    margin: 10px;
+    padding: 20px;
+    background-color: #ffe4e1;
+    text-align: center;
+    border-radius: 15px;
+}

@@ -1,0 +1,30 @@
+/*.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    margin: auto;
+    background-color: #ffe4e1;
+    width: 60%;
+    height: 60px;
+    box-sizing: content-box;
+}*/
+
+.logo{
+    width: 80px;
+    height: 80px;
+}
+
+.nav__listadenavegacion{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.nav__item{
+    margin-left: 16px;
+    font-size: 16px;
+}

@@ -1,0 +1,44 @@
+/*Pagina 2: Productos -----------------------------------------------------------------------------------------------------------------------------------*/
+
+.carruselprod{
+    width: 100%;  
+}
+
+.productos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.productos__titulo{
+    color: white;
+    font-style: italic;
+    font-size: 35px;
+    margin-top: 25px;
+    width: 60%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.productos__tarjetas{
+    width: 100%;
+    margin-top: 25px;
+    background-color: #ffe4e1;
+    display: flex;
+    flex-direction: row;
+}
+
+.productos__items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    text-align: center;
+}
+
+.productos__imagenes{
+    width: 35%;
+}

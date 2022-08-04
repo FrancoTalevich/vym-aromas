@@ -1,0 +1,133 @@
+/*Pagina 1: Home -----------------------------------------------------------------------------------------------------------------------------------*/
+
+.productosdestacados{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    &__textos{
+        width: 100%;
+        padding: 30px 150px;
+        background-color: $colorPrincipal;
+        text-align: center;
+        color: white;
+    }
+}
+
+
+.colecciones{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    &__elementos{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+        padding-bottom: 30px;
+        background-color: $colorPrincipal;
+    }
+}
+
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+    background-image: url(./imagenes/imagendefondo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    
+    &__titulo{
+        font-size: 28px;
+        font-style: italic;
+    }
+    
+    &__tarjetas{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    &__propiedades h6{
+        font-size: 22px;
+        font-style: italic;
+        margin-bottom: 5px;
+    }
+    
+    &__propiedades{
+        background-color: $colorPrincipal;
+        margin: 20px;
+        padding: 20px 24px;
+        text-align: center;
+        font-size: 16px;
+        transition: background-color 2s, color 3s;
+        &:hover{
+            background-color: whitesmoke;
+            color: $colorPrincipal;
+        }
+    }    
+}
+
+.videohome{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: url(./imagenes/fondovideo2.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.iframeyt{
+    width: 800px;
+    height: 420px;
+}
+
+.suscripcion{
+    background-color: $colorPrincipal;
+    
+    &__form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 550px;
+        
+        & label{
+            color: whitesmoke;
+        }
+        
+        & button{
+            background-color: whitesmoke;
+            color: $colorPrincipal;
+            border: whitesmoke;
+            width: 12%;
+        }
+    }
+      
+    &__textos{
+        font-style: italic;
+        font-size: 22px;
+        text-align: center;
+        color: white;
+        
+        & h3{
+            font-size: 30px;
+        }
+    }
+    
+    &__imagen{
+        width: 400px;
+        height: 550px;
+        margin: 20px 30px;
+    }
+}

@@ -1,0 +1,15 @@
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 14px;
+    height: 100px;
+}
+
+.redes__lista{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 15px;
+}
