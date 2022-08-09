@@ -8,10 +8,17 @@
 
 .tienda_productos{
     border-radius: 1rem;
-    background-color: #ffe4e1;
+    background-color: whitesmoke;
+    color: $colorPrincipal;
+    border: 3px solid $colorPrincipal;
     text-align: center;
     font-size: 18px;
     font-style: italic;
-    margin:25px;
+    margin: 15px;
     padding: 20px;
+    transition:  background-color 2s, color 2s;
+    &:hover{
+        background-color: $colorPrincipal;
+        color: white;
+    }
 }

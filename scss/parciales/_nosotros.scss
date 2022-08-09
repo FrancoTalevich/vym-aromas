@@ -9,41 +9,71 @@
 
 .empresa__card{
     width: 100%;
+    height: auto;
     margin-top: 15px;
-    margin-bottom: 15px;
+    padding: 20px;
     text-align: center;
     font-style: italic;
-    background-color: #ffe4e1;
+    background-color: $colorPrincipal;
 }
 
 .empresa__titulo{
-    font-size: 25px;
-    padding-top: 15px;
+    font-size: 22px;
 }
 
 .empresa__texto{
+    padding-left: 100px;
+    padding-right: 100px;
     font-size: 16px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    text-align: center;
 }
 
-.empresa__img{
-    width: 75%;
+.galeria{
     height: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    grid-template-rows: repeat(3, 200px);
+    grid-template-areas: 
+    "img1 img1 img2" 
+    "img3 img4 img4" 
+    "img5 img5 img6";
+    gap: 10px;
+    justify-content: center;
+    align-content: center;
+}
+
+.galeria__imagenes{
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.galeria__imagenes--img1{
+    grid-area: img1;
+}
+
+.galeria__imagenes--img2{
+    grid-area: img2;
+}
+
+.galeria__imagenes--img3{
+    grid-area: img3;
+}
+
+.galeria__imagenes--img4{
+    grid-area: img4;
+}
+
+.galeria__imagenes--img5{
+    grid-area: img5;
+}
+
+.galeria__imagenes--img6{
+    grid-area: img6;
+}
+
+.galeria__fotos{
+    width: 100%;
+    height: 100%;
     object-fit: cover;
 }
 
-.representantes{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.mayorista{
-    width: 100%;
-    background-color: #ffe4e1;
-    text-align: center;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    padding-top: 10px;
-}

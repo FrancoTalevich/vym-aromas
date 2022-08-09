@@ -13,26 +13,59 @@
         height: 60px;
     }
 
-    .promocionproductos h2{
-        font-size: 16px;
-        text-align: center;
-    }
+    .productosdestacados{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
 
-    .promocionproductos p{
-        font-size: 10px;
-        text-align: center;
-        padding: 8px
+        &__textos{
+            width: 100%;
+            padding: 15px;
+            background-color: $colorPrincipal;
+            text-align: center;
+            color: white;
+        }
+
+        &__textos h2{
+            font-size: 22px;
+        }
+
+        &__textos p{
+            font-size: 14px;
+        }
     }
 
     .colecciones{
         display: flex;
         flex-direction: column;
-    }
+        justify-content: center;
+        
+        &__elementos{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 100%;
+            padding-bottom: 30px;
+            background-color: $colorPrincipal;
+        }
+    
+        &__link1{
+            display: inline-block;
+            width: 100%;
+            height: 200px;
+            border-radius: 10px;
+            object-fit: cover;
+            margin: 0;
+        }
 
-    .colecciones__img{
-        width: 100%;
-        height: auto;
-        object-fit: cover;
+        &__link2{
+            display: inline-block;
+            width: 100%;
+            height: 200px;
+            border-radius: 10px;
+            object-fit: cover;
+            margin: 0;
+        }
     }
 
     .info{
@@ -71,35 +104,7 @@
         height: auto;
 
     }
-
-    .suscripcion{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        color: white;
-        font-size: 16px;
-    }
     
-    .suscripcion__elementos{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: 12px;
-    }
-    
-    .suscripcion__titulo{
-        margin-bottom: 20px;
-        font-size: 20px;
-    }
-    
-    .suscripcion__imagen{
-        width:100%;
-        height: auto;
-        object-fit: cover;
-        margin: auto;
-    }
-
     footer{
         display: flex;
         flex-direction: column;
@@ -145,7 +150,8 @@
     
     .tienda_productos{
         margin:15px;
-        height: 350px;
+        height: 410px;
+        font-size: 16px;
     }
 
     .tienda__img{
@@ -157,25 +163,51 @@
     /* Pagina 4: Nosotros----------------------------------------------------*/
 
     .empresa__card{
-        margin-top: 6px;
-        margin-bottom: 6px;
+        margin: 0;
     }
 
     .empresa__texto{
-        font-size: 12px;
-        padding: 0px 10px;
+        font-size: 10px;
+        padding: 0px
     }
 
-    .empresa__img{
-        width: 100%;
+    .galeria{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "img1"
+        "img2"
+        "img3"
+        "img4"
+        "img5"
+        "img6";
     }
 
-    .mayorista{
-        margin-top: 6px;
-        margin-bottom: 6px;
+    .galeria__imagenes--img1{
+        grid-area: img1;
+    }
+    
+    .galeria__imagenes--img2{
+        grid-area: img2;
+    }
+    
+    .galeria__imagenes--img3{
+        grid-area: img3;
+    }
+    
+    .galeria__imagenes--img4{
+        grid-area: img4;
+    }
+    
+    .galeria__imagenes--img5{
+        grid-area: img5;
+    }
+    
+    .galeria__imagenes--img6{
+        grid-area: img6;
     }
 
-     /* Pagina 6: tienda x productos----------------------------------------------------*/
+    /* Pagina 6: tienda x productos----------------------------------------------------*/
 
     .comprar{
         width: 100%;

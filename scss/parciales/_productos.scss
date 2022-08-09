@@ -7,25 +7,14 @@
 .productos{
     display: flex;
     flex-direction: column;
-    align-items: center;
-}
-
-.productos__titulo{
-    color: white;
-    font-style: italic;
-    font-size: 35px;
-    margin-top: 25px;
-    width: 60%;
-    height: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    justify-content: center;    
 }
 
 .productos__tarjetas{
     width: 100%;
-    margin-top: 25px;
-    background-color: #ffe4e1;
+    margin-top: 15px;
+    background-color: $colorPrincipal;
+    color: $colorTextos;
     display: flex;
     flex-direction: row;
 }

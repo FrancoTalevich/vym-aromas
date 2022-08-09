@@ -38,7 +38,7 @@
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                 <li><a class="dropdown-item" href="./paginas/tienda.html">Todos Nuestros Productos</a></li>
-                                <li><a class="dropdown-item" href="./paginas/coleccionvintage.html">Coleccion Vintage</a></li>
+                                <li><a class="dropdown-item" href="./paginas/caramelera.html">Coleccion Vintage</a></li>
                                 <li><a class="dropdown-item" href="./paginas/boxderegalo.html">Box de Regalo</a></li>
                                 </ul>
                             </li>
@@ -56,9 +56,9 @@
     
     <main>
         <section>
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row">
-                    <div class=" col-12 col-md-12"> 
+                    <div class=" col-12 col-md-12 px-0"> 
                         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-indicators">
                             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -98,10 +98,10 @@
         <section class="colecciones">
             <div class="colecciones__elementos">
                 <div>
-                    <a href="./paginas/coleccionvintage.html"> <img class="colecciones__img" src="./imagenes/coleccionvintage.jpg" alt="coleccionvintage"> </a>
+                    <a class="colecciones__link1" href="./paginas/coleccionvintage.html"></a>
                 </div>
                 <div>    
-                    <a href="./paginas/boxderegalo.html"> <img class="colecciones__img" src="./imagenes/boxderegalo.jpg" alt="box de regalo"> </a>  
+                    <a class="colecciones__link2" href="./paginas/caramelera.html"></a>  
                 </div>
             </div> 
         </section>
@@ -140,7 +140,7 @@
         <section class="suscripcion">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 col-md-8"> 
+                    <div class="col-12 col-md-12"> 
                         <form class="suscripcion__form">
                             <div class="suscripcion__textos">
                                 <h3>Suscribete a nuestro newsletter</h3>
@@ -154,12 +154,9 @@
                               <label for="exampleInputPassword1" class="form-label">Contraseña</label>
                               <input type="password" class="form-control" id="exampleInputPassword1">
                             </div>
-                            <button type="submit" class="btn btn-primary">Enviar</button>
+                            <button type="submit" class="botones">Enviar</button>
                         </form>
-                    </div>
-                    <div class="col-12 col-md-4">
-                        <img class="suscripcion__imagen" src="./imagenes/newsletter1.jpg" alt="imagennewsletter">
-                    </div>
+                    </div>    
                 </div>
             </div>
         </section>
