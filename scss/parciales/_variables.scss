@@ -1,3 +1,14 @@
 $colorPrincipal: #cfb5b2;
 $fuentePrincipal: Verdana, Geneva, Tahoma, sans-serif;
 $colorTextos: white;
+
+$estilosgenerales: (
+    colorprinc: #cfb5b2,
+    centro: center,
+) ; 
+
+@mixin flexin ($direccion, $ejePrincipal, $ejeSecundario){
+    flex-direction: $direccion;
+    justify-content: $ejePrincipal;
+    align-items: $ejeSecundario;
+}
