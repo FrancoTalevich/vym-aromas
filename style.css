@@ -390,6 +390,10 @@ footer {
   text-align: center;
 }
 
+.accordion-item {
+  color: black;
+}
+
 /*Pagina 6: tienda producto -----------------------------------------------------------------------------------------------------------------------------------*/
 .cardcompra {
   display: flex;
