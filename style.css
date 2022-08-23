@@ -376,6 +376,23 @@ footer {
   object-fit: cover;
 }
 
+.mayorista {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #cfb5b2;
+}
+
+.mayorista h2 {
+  font-size: 22px;
+}
+
+.mayorista__formulario {
+  border-radius: 1rem;
+  color: black;
+}
+
 /*Pagina 5: Faq -----------------------------------------------------------------------------------------------------------------------------------*/
 .carruselfaq_imagenes {
   width: 100%;
@@ -403,22 +420,24 @@ footer {
 }
 
 .comprar {
-  width: 60%;
+  width: 100%;
   margin-top: 20px;
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color: #ffe4e1;
+  background-color: #cfb5b2;
   text-align: center;
-  border-radius: 15px;
+}
+
+.fotoprod {
+  width: 350px;
+  height: 350px;
 }
 
 .fragancia {
-  width: 50%;
-  margin: 10px;
+  width: 100%;
   padding: 20px;
-  background-color: #ffe4e1;
+  background-color: #cfb5b2;
   text-align: center;
-  border-radius: 15px;
 }
 
 /*Vista Mobile*/
@@ -593,7 +612,7 @@ footer {
     padding-bottom: 10px;
   }
   .fragancia {
-    width: 75%;
+    width: 100%;
   }
   .fotoprod {
     width: 75%;
