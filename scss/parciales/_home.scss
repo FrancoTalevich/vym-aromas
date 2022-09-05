@@ -90,6 +90,8 @@
     
     &__propiedades{
         background-color: map-get($estilosgenerales ,colorprinc);
+        width: 400px;
+        height: 200px;
         margin: 20px;
         padding: 20px 24px;
         text-align: map-get($estilosgenerales ,centro);
