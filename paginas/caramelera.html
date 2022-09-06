@@ -57,51 +57,76 @@
     </header>
 
     <main>
-        <div class="cardcompra">
-            <section class="comprar">
-                <div>
-                    <h4>Difusor Coleccion Vintage</h4>
-                    <img class="fotoprod" src="../imagenes/tiendaprod7.jpg" alt="producto1">
-                    <p>Precio: $500</p>
+        <div class="comprar"> 
+            <div class="fotoproductos">
+                <div class="fotoproductos__imagenes fotoproductos__imagenes--img1">
+                  <img class="fotoproductos__fotos" src="../imagenes/tiendaprod7.jpg" alt="galeria1">
                 </div>
-            </section>
-            <section class="fragancia">
-                <form>
+                <div class="fotoproductos__imagenes fotoproductos__imagenes--img2">
+                  <img class="fotoproductos__fotos" src="../imagenes/compra4.jpg" alt="galeria2">
+                </div>
+                <div class="fotoproductos__imagenes fotoproductos__imagenes--img3">
+                  <img class="fotoproductos__fotos" src="../imagenes/compra5.jpg" alt="galeria3">
+                </div>
+                <div class="fotoproductos__imagenes fotoproductos__imagenes--img4">
+                  <img class="fotoproductos__fotos" src="../imagenes/compra6.jpg" alt="galeria4">
+                </div>
+            </div>
+            <div class="informacionproducto">
+                <h1>Caramelera</h1>
+                <p>Precio: $3500</p>
+                <p>3 cuotas sin interes</p>
+                <p>10% pagando con transferencia</p>
+                <img class="tarjetasbancos" src="../imagenes/tarjetas.png" alt="tarjetasbancos">
+                <form class="">
                     <div>
                         <label for="fragancia">Fragancia</label>
                         <select name="fragancia" id="fragancia" required>
                             <option value="">Seleccione:</option>
-                            <option value="Lavanda">Lavanda</option>
-                            <option value="Citric">Citric</option>
-                            <option value="Limon">Limon</option>
-                            <option value="Nachampa">Nachampa</option>
+                            <option value="Lavanda">Lemongrass</option>
+                            <option value="Citric">Naranja</option>
+                            <option value="Limon">Vainilla</option>
+                            <option value="Nachampa">Rosas</option>
                         </select>
                     </div>
+                </form>
+                <form>
                     <div>
-                        <button>Realizar Compra</button>
+                        <label for="cantidad">Cantidad</label>
+                        <select name="cantidad" id="cantidad" required>
+                            <option value="">Seleccione:</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                    </div>
+                    <div class="realizarcompra">
+                        <button class="botoncompra">Realizar Compra</button>
                     </div>
                 </form>
-            </section>
+            </div>
         </div>
+
     </main>
 
     <footer>
         <div>
-            <p class="ubicacion">San Antonio de Areco - Buenos Aires - Argentina</p>
+            <p>San Antonio de Areco - Buenos Aires - Argentina</p>
         </div>
         <div>
-            <p class="copy">© Copyright VyM Aromas - 2022 - Derechos reservados</p>
+            <p>© Copyright VyM Aromas - 2022 - Derechos reservados</p>
         </div>
         <div class="redes">
             <ul class="redes__lista">
-                <li class="redes__iconos">
-                    <a href="https://wa.me/+542326422825" target="_blank"> <img src="../imagenes/whatsapp.png" alt="logowhatsapp" width="25" height="25"> </a>
+                <li>
+                    <a href="https://wa.me/+542326422825" target="_blank"> <img class="redes__iconos" src="../imagenes/whatsapp.png" alt="logowhatsapp"> </a>
                 </li>
-                <li class="redes_iconos">
-                    <a href="https://www.instagram.com/vym_aromas/" target="_blank"> <img src="../imagenes/instagram.png" alt="logoinstagram" width="25" height="25"> </a>
+                <li>
+                    <a href="https://www.instagram.com/vym_aromas/" target="_blank"> <img class="redes__iconos" src="../imagenes/instagram.png" alt="logoinstagram"> </a>
                 </li>
-                <li class="redes_iconos">
-                    <a href="mailto:ftalevich2000@gmail.com" target="_blank"> <img src="../imagenes/email.png" alt="logoemail" width="25" height="25"> </a>
+                <li>
+                    <a href="mailto:ftalevich2000@gmail.com" target="_blank"> <img class="redes__iconos" src="../imagenes/email.png" alt="logoemail"> </a>
                 </li>
             </ul>
         </div>

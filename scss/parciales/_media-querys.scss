@@ -242,21 +242,33 @@
         width: auto;
     }
 
-    /* Pagina 6: tienda x productos----------------------------------------------------*/
+    /*comprar---------------------------------------*/
 
     .comprar{
-        width: 100%;
-        padding-top: 10px;
-        padding-bottom: 10px;
+        flex-direction: column;
     }
 
-    .fragancia{
-        width: 100%;
+    .fotoproductos{
+        width: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "img1"
+        "img2"
+        "img3"
+        "img4";
     }
 
-    .fotoprod{
-        width: 75%;
-        height: auto;
-        object-fit: cover;
+    .informacionproducto{
+        width: auto;
+        padding-left: 0;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 5px;
+        & h1{
+            font-size: 22px;
+        }
     }
+
 }
